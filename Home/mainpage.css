@@ -97,15 +97,21 @@ footer {
     color:gray;
 }
 
+.juice span {
+    display:table;   
+} 
+
 .item {
     position: absolute;
     left: 280px;
     top: 440px;
-    
-    
 }
 
-.right {
+.item span {
+    display:table;
+}
+
+   .right {
     width: 20%;
    position: relative;
    top:10px;
@@ -113,20 +119,24 @@ footer {
   
 }
 
-
 .groves { 
     position:relative;
     left: 580px;
     top: 420px;
-    
- }
+    }
+
+    .groves span {
+display:table;
+    }
 
  .farm {
      position:relative;
      left: 580px;
      top: 450px;
-    
-}
+    }
+    .farm span {
+        display:table;
+    }
 
 .left {
     position: relative;
@@ -138,15 +148,21 @@ footer {
     position: relative;
     left: 200px;
     top: 700px;
-
 }
+
+.vitamin span {
+    display:table;
+}
+
 .paragraph {
     position: absolute;
     bottom:1420px;
     left: 200px;
-  
+  }
 
-}
+  .paragraph span {
+      display: table;
+  }
 
 .jug {
     position: absolute;
@@ -160,10 +176,18 @@ footer {
     bottom:700px;
 }
 
+.freshness span {
+    display:table;
+}
+
 .market {
     position: absolute;
     left: 600px;
     bottom: 550px;
+}
+
+.market span {
+    display: table;
 }
 
 .leaves {
@@ -178,19 +202,6 @@ footer {
     bottom:  300px;
     left: 500px;
 }
-
-.bottle {
-    width: 80vw;
-    position: absolute;
-    left: 280px;
-    bottom:200px;
-}
-#span {
-position: relative;
-left:280px;
-}
-
-
 
 
 .groves, .vitamin, .freshness, .taste{
