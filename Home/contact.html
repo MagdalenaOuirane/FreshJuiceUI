@@ -13,52 +13,56 @@
 </head>
 
 <body>
+    <div class="wrapper">
+        <nav class="flex-nav">
+            <ul>
+                <li class="orange">Orange Grove</li>
+                <li><a href="mainpage.html">Home</a></li>
+                <li><a href="about.html">About</a> </li>
+                <li><a href="whereTobuy.html">Where to buy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-    <nav>
-        <ul>
-            <li class="orange">Orange Grove</li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="whereTobuy.html">Where to buy</a> </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="mainpage.html">Home</a></li>
-        </ul>
+        </nav>
 
-    </nav>
+        <section>
+            <h1 class="contact">Contact Us</h1>
 
-    <section>
-        <h1 class="contact">Contact Us</h1>
-
-        <p class="area">If you are in the area, stop by and get a free sample<span>or pick your daily dose of freshness
-                at your local farmers' market.</span><span>Orange Grove 2 Pike St, New York, NY 10002</span></p>
-
-
-        <form class="myForm" id="contactForm" method="post" action="/send-scripts.php">
-
-            <div class="form-row"></br>
-                <label for="field-name">Your Name*</label>
-                <input type="text" name="field-name" required id="name" data-error="Wypełnij to pole"
-                    pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
-            </div>
-
-            <div class="form-row"></br>
-                <label for="field-email">Email*</label>
-                <input type="text" name="field-email" required id="email" data-error="Wpisz poprawny email"
-                    pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+            <p class="area">If you are in the area, stop by and get a free sample<span>or pick your daily dose of
+                    freshness
+                    at your local farmers' market.</span><span>Orange Grove 2 Pike St, New York, NY 10002</span></p>
 
 
-            </div>
+            <form class="myForm" id="contactForm" method="post" action="/send-scripts.php">
 
-            <div class="form-row"></br>
-                <label for="field-message">Message*</label>
-                <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message"
-                    pattern=".+"></textarea>
+                <div class="form-row"></br>
+                    <label for="field-name">Your Name*</label>
+                    <input type="text" name="field-name" required id="name" data-error="Wypełnij to pole"
+                        pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+                </div>
 
-            </div>
+                <div class="form-row"></br>
+                    <label for="field-email">Email*</label>
+                    <input type="text" name="field-email" required id="email" data-error="Wpisz poprawny email"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
 
-            <div class="form-row"></br>
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+
+                </div>
+
+                <div class="form-row"></br>
+                    <label for="field-message">Message*</label>
+                    <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message"
+                        pattern=".+"></textarea>
+
+                </div>
+
+                <div class="form-row"></br>
+                    <button type="submit">Submit</button>
+                </div>
+
+
+            </form>
+    </div>
     </section>
 </body>
 
