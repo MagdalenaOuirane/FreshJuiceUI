@@ -21,6 +21,10 @@
     line-height: 200%;
 }
 
+.area span {
+    display: table;
+}
+
 
 
 
