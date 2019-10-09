@@ -1,56 +1,94 @@
 * {
-    font-family: sans-serif;/* ctr and ? means fast commenting sth */
-    box-sizing: border-box; 
+    box-sizing:border-box;
+}
+body {
     margin:0;
-    padding:0;
-    
-    
 }
 
-body {
+/* body {
     overflow-x: hidden;
     
-}
+} */
     
  .container {
-    position:relative;
-    max-width: 1350px;
+ max-width: 1500px;
+   }
+
+
+   a {
+       font-size:20px;
+       color:black;
+       letter-spacing:2px;
+       text-decoration: none;
+       padding:30px 5px;
+       display:inline-block;
+       width:100%;
+       text-align:left;
+       transition:.3s;
+   }
+
+   a:hover {
+       text-decoration:underline;
+   }
+
+   .flex-nav ul {
+       list-style:none;
+       margin:0;
+       padding:0;
+       display:flex;
+   }
+
+   .flex-nav li {
+       flex:1;
+   }
+
+   .flex-nav .orange {
+       text-transform: uppercase;
+       padding: 20px 25px;
+       letter-spacing:2px;
+       width:100%;
+       font-size: 30px;
+       flex:4;
+   }
+
+   @media all and (max-width:800px) {
    
+    .flex-nav ul {
+    flex-direction:column;
+    }
+
 }
 
 
-nav.desktop {
-    /* position: fixed; */
-    width: 100%;
-    height:10vh;
-    line-height:8vh;
-    /* background-color: red;  */
-    top: 0;
-    left: 0;
-    z-index: 1;
+@media all and (max-width:300px) {
+    .flex-nav li {
+        flex: 1 1 100%;
+}
 }
 
-article {
+
+
+/* article { */
     
     /* background-color: rgb(217, 187, 245); */
-    height: 250vh;
-    top:10vh; /*  article zaczyna sie 10 vh za header dzieki temu nie nakladaja sie na siebie. Inny sposob to moze byc top 0 a margin-top:10vh;* lub z-index mozemy dac w nav ale wtedy mozemy straci czesc article jesli mamy jaki element*/
-    left:0;
+    /* height: 250vh;
+    top:10vh;  article zaczyna sie 10 vh za header dzieki temu nie nakladaja sie na siebie. Inny sposob to moze byc top 0 a margin-top:10vh;* lub z-index mozemy dac w nav ale wtedy mozemy straci czesc article jesli mamy jaki element */
+    /* left:0;
     width:100%;
-}
-
+} */
+/* 
 footer {
     
    
     /* background-color:yellowgreen; */
-    height: 10vh;
+    /* height: 10vh;
     top:0;
     margin-top: 250vh;
     left: 0;
 
-}
+} */
 
-.orange {
+/* .orange {
     
     margin-left: 25px;
     font-size: 30px;
@@ -70,21 +108,7 @@ footer {
     display:inline;
  }
  
- nav.desktop a {
-    
-    font-size: 20px;
-    text-decoration-line: none;
-     color: black;
-     padding: 5px 45px;
-     float: right;
-     cursor:pointer;
-     transition:.3s;
-    }
 
-    nav.desktop a:hover {
-        text-decoration:underline;
-        
-    }
 
 
 
@@ -282,7 +306,7 @@ display:table;
         font-size:30px;
         
     }
-}
+} */ 
 
 
 
