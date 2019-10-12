@@ -45,6 +45,7 @@ body {
 
    .flex-nav li {
        flex:1;
+
    }
 
    .flex-nav .orange {
@@ -78,6 +79,62 @@ section {
 
     
 }
+
+.fresh {
+    display:flex;
+    flex-direction: column;
+}
+
+.juice {
+    align-self: flex-start;
+    margin: 40px 60px;
+    padding: 40px 30px;
+    font-size: 40px;
+    color: gray;
+}
+
+.juice span {
+    display:table;   
+} 
+
+
+
+.item {
+    align-self: flex-start;
+    margin:5px 60px;
+    padding:5px 30px;
+}
+
+.item span {
+    display:table;
+}
+
+.picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+ 
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
+.right {
+align-self: flex-end; 
+
+   
+}
+
+.item, .farm, .paragraph, .market, .bottle {
+    font-size: 1.3em;
+    color:gray;
+    line-height: 200%;
+}
+
 
 
 /* 
@@ -151,17 +208,9 @@ footer {
     top: 440px;
 }
 
-.item span {
-    display:table;
-}
 
-   .right {
-    width: 20%;
-   position: relative;
-   top:10px;
-   left: 850px;
-  
-}
+
+
 
 .groves { 
     position:relative;
