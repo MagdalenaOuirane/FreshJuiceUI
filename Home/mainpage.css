@@ -321,17 +321,7 @@ footer {
 
 
 
-.button {
-        position: absolute;
-        bottom: 130px;
-        left:600px;
-        line-height: 20px;
-        padding: 10px 15px;
-        width: 15%;
-        cursor: pointer;
-        
-        
-    }
+
 
     
 
@@ -357,6 +347,22 @@ footer {
 
 */
 
+.contact {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.button {
+    margin-bottom:20px;
+ font-size:20px;  
+line-height: 20px;
+    padding: 20px 15px;
+    width: 15%;
+    cursor: pointer;
+    
+    
+}
+
 footer {
     display:flex;
     flex-direction:row;
@@ -370,7 +376,7 @@ footer {
 
 .webnode {
     color: gray;
-    line-height: 20px;
+     line-height: 20px;
     font-size:20px;
 
 }
