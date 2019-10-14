@@ -18,6 +18,16 @@ body {
  background-color: aliceblue;
    }
 
+   nav {
+       background-color: yellow;
+   }
+
+   footer {
+       background-color: palevioletred;
+   }
+
+  
+
 
    a {
        font-size:20px;
@@ -76,6 +86,7 @@ section {
     display:flex;
     flex-direction: column;
     justify-content:flex-start;
+    flex: 1;
 
     
 }
@@ -89,8 +100,9 @@ section {
     align-self: flex-start;
     margin: 40px 60px;
     padding: 40px 30px;
-    font-size: 40px;
+    font-size: 45px;
     color: gray;
+    background-color:red;
 }
 
 .juice span {
@@ -103,6 +115,7 @@ section {
     align-self: flex-start;
     margin:5px 60px;
     padding:5px 30px;
+    background-color:greenyellow; 
 }
 
 .item span {
@@ -113,21 +126,18 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: aqua;
+    width:200px;
     
-    
- 
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-
-.right {
-align-self: flex-end; 
-
-   
 }
+
+    div img {
+        max-width: 100%;
+        align-self:flex-end;
+        
+    }
+
+
 
 .item, .farm, .paragraph, .market, .bottle {
     font-size: 1.3em;
@@ -135,7 +145,43 @@ align-self: flex-end;
     line-height: 200%;
 }
 
+.family-farm {
+    display:flex;
+    flex-direction: column;
+    
+}
 
+.groves {
+    align-self: center;
+    margin-left:300px;
+    padding: 20px;
+   background-color:gold;
+
+}
+
+  .groves span {
+    display:table;
+        }
+
+   .groves, .vitamin, .freshness, .taste{
+            font-size: 40px;
+            color: gray;
+            font-weight:300;
+            text-transform:uppercase;
+        
+        }
+
+
+        .farm span {
+            display:table;
+        }
+
+        .farm {
+            align-self:flex-end;
+            margin-right: 60px;
+            padding:20px;
+            background-color: blueviolet;
+        }
 
 /* 
 .fresh {
@@ -174,16 +220,6 @@ footer {
 }
 
 
- nav ul {
-
-    list-style-type: none;
-   
- }  
-  
-     
- nav li {   
-    display:inline;
- }
  
 
 
@@ -202,34 +238,18 @@ footer {
     display:table;   
 } 
 
-.item {
-    position: absolute;
-    left: 280px;
-    top: 440px;
-}
 
 
 
 
 
-.groves { 
-    position:relative;
-    left: 580px;
-    top: 420px;
-    }
 
-    .groves span {
-display:table;
-    }
+.
 
- .farm {
-     position:relative;
-     left: 580px;
-     top: 450px;
-    }
-    .farm span {
-        display:table;
-    }
+ 
+
+ 
+   
 
 .left {
     position: relative;
@@ -297,19 +317,9 @@ display:table;
 }
 
 
-.groves, .vitamin, .freshness, .taste{
-    font-size: 40px;
-    color: gray;
-    font-weight:300;
-    text-transform:uppercase;
 
-}
 
-.item, .farm, .paragraph, .market, .bottle {
-    font-size: 1.3em;
-    color:gray;
-    line-height: 200%;
-}
+
 
 .button {
         position: absolute;
@@ -323,59 +333,12 @@ display:table;
         
     }
 
-    .webnode {
-        color: gray;
-        line-height: 35px;
-        text-align: center;
-
-    }
+    
 
    
 
     
 
-    nav.mobile {
-        display: none;
-    }
-
-@media  (max-width:1024px) {
-    nav.desktop {
-        display: none;
-    }
-
-
-    nav.mobile {
-        position: fixed;
-        left:10px;
-        display: block;
-        height:100%;
-        width:100px;
-       
-    }
-     
-    nav.mobile a {
-        display:block;
-        line-height:6vh;
-        color:black;
-        font-size:15px;
-        text-align: right;
-        text-indent:10px;
-          
-    }
-    nav.mobile,.orange {
-        
-        font-size:20px;
-        line-height:6vh;
-        text-indent: -25px;
-    
-    }
-
-    .juice,.item, .right {
-        display: block;
-        font-size:30px;
-        
-    }
-} */ 
 
 
 
@@ -394,7 +357,23 @@ display:table;
 
 */
 
+footer {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
 
+.webnode span {
+    display:table;
+    margin-left:80px;
+}
+
+.webnode {
+    color: gray;
+    line-height: 20px;
+    font-size:20px;
+
+}
 
     
 
