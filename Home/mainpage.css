@@ -353,14 +353,14 @@ footer {
     justify-content: center;
 }
 .button {
+    flex-shrink:1;
+    flex-basis: 15%;
     margin-bottom:20px;
  font-size:20px;  
 line-height: 20px;
     padding: 20px 15px;
-    width: 15%;
+    
     cursor: pointer;
-    
-    
 }
 
 footer {
@@ -372,9 +372,11 @@ footer {
 .webnode span {
     display:table;
     margin-left:80px;
+   
 }
 
 .webnode {
+    flex-shrink:1;
     color: gray;
      line-height: 20px;
     font-size:20px;
