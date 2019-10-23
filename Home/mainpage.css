@@ -71,6 +71,7 @@ body {
    
     .flex-nav ul {
     flex-direction:column;
+    
     }
 
 }
@@ -79,67 +80,99 @@ body {
 @media all and (max-width:300px) {
     .flex-nav li {
         flex: 1 1 100%;
+        
 }
 }
 
-section {
+
+.d-flex {
     display:flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    flex: 1;
-
-    
+    flex-direction:row;
+    background-color: cyan;
 }
 
-.fresh {
-    display:flex;
-    flex-direction: column;
+.d-grow {
+    flex:4;
+   margin-top:50px;
+  
 }
 
-.juice {
-    align-self: flex-start;
-    margin: 40px 60px;
+
+h3 {
+    width:60%;
+ margin: 40px 60px;
     padding: 40px 30px;
     font-size: 45px;
     color: gray;
     background-color:red;
 }
 
-.juice span {
+h3 span {
     display:table;   
 } 
 
-
-
-.item {
-    align-self: flex-start;
+p {
+    width:60%;
     margin:5px 60px;
     padding:5px 30px;
     background-color:greenyellow; 
 }
 
-.item span {
-    display:table;
-}
 
-.picture {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: aqua;
-    width:200px;
+.item {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:50px;
+     margin-right: 400px;
+    flex:1;
     
 }
 
-    div img {
-        max-width: 100%;
-        align-self:flex-end;
-        
+img {
+    width:120%;
+}
+
+
+@media all and (max-width:800px) {
+   
+    .d-flex {
+    flex-direction:column;
+    
     }
 
+}
 
 
-.item, .farm, .paragraph, .market, .bottle {
+.family-farm {
+    background-color: violet;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+
+
+h2 span {
+    display:table;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+p,  .paragraph, .market, .bottle {
     font-size: 1.3em;
     color:gray;
     line-height: 200%;
@@ -163,7 +196,7 @@ section {
     display:table;
         }
 
-   .groves, .vitamin, .freshness, .taste{
+   h2, .freshness, .taste{
             font-size: 40px;
             color: gray;
             font-weight:300;
