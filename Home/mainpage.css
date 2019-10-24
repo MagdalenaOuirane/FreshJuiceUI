@@ -129,7 +129,7 @@ p {
     
 }
 
-img {
+.item img {
     width:120%;
 }
 
@@ -145,19 +145,49 @@ img {
 
 
 .family-farm {
+    margin-top:50px;
     background-color: violet;
-    display:flex;
-    flex-direction:column;
-    
+   display:flex;
+   flex-direction:row; 
+   
+
+   
+   
 }
+  
+.d-groves {
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+      
+    }
 
+    .p-farm {
+        width: 60%;
+        padding-left:10px;
+        margin-right:20px;
+        flex:4;
 
+    } 
 
 
 h2 span {
     display:table;
 }
 
+h2 {
+    margin-left: 80px;
+}
+
+
+
+.orange {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     margin-right: 330px;
+    flex:1;
+}   
 
 
 
@@ -168,6 +198,13 @@ h2 span {
 
 
 
+h2, .freshness, .taste{
+    font-size: 40px;
+    color: gray;
+    font-weight:300;
+    text-transform:uppercase;
+
+}
    
 
 
@@ -178,7 +215,7 @@ p,  .paragraph, .market, .bottle {
     line-height: 200%;
 }
 
-.family-farm {
+/* .family-farm {
     display:flex;
     flex-direction: column;
     
@@ -196,13 +233,7 @@ p,  .paragraph, .market, .bottle {
     display:table;
         }
 
-   h2, .freshness, .taste{
-            font-size: 40px;
-            color: gray;
-            font-weight:300;
-            text-transform:uppercase;
-        
-        }
+  
 
 
         .farm span {
@@ -214,7 +245,7 @@ p,  .paragraph, .market, .bottle {
             margin-right: 60px;
             padding:20px;
             background-color: blueviolet;
-        }
+        } */
 
 /* 
 .fresh {
@@ -398,21 +429,24 @@ line-height: 20px;
 
 footer {
     display:flex;
-    flex-direction:row;
-    justify-content:center;
+    
 }
 
 .webnode span {
     display:table;
-    margin-left:80px;
+    margin-left:150px;
+
    
 }
 
 .webnode {
+text-align:center;
+width:40%;
     flex-shrink:1;
     color: gray;
-     line-height: 20px;
+     line-height: 30px;
     font-size:20px;
+    margin:auto;
 
 }
 
