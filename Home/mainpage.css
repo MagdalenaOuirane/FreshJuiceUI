@@ -14,12 +14,13 @@ body {
  max-width: 1500px;
  display: flex;
  flex-direction:column;
- min-height:100vh;
+ min-height:200vh;
  background-color: aliceblue;
    }
 
    nav {
        background-color: yellow;
+     
    }
 
    footer {
@@ -55,6 +56,7 @@ body {
 
    .flex-nav li {
        flex:1;
+      
 
    }
 
@@ -88,20 +90,21 @@ body {
 .d-flex {
     display:flex;
     flex-direction:row;
-    background-color: cyan;
+  background-color: cyan;
 }
 
 .d-grow {
-    flex:4;
-   margin-top:50px;
+    margin-left:150px;
+   flex:4;
+   margin-top:30px;
   
 }
 
 
 h3 {
-    width:60%;
- margin: 40px 60px;
-    padding: 40px 30px;
+    width:40%;
+    margin: 40px 60px;
+    padding: 20px 30px;
     font-size: 45px;
     color: gray;
     background-color:red;
@@ -123,15 +126,14 @@ p {
     display:flex;
     flex-direction:column;
     justify-content:center;
+    align-items:center;
     margin-top:50px;
-     margin-right: 400px;
+     margin-right: 200px;
     flex:1;
     
 }
 
-.item img {
-    width:120%;
-}
+
 
 
 @media all and (max-width:800px) {
@@ -145,49 +147,70 @@ p {
 
 
 .family-farm {
-    margin-top:50px;
+    margin-top:30px;
     background-color: violet;
    display:flex;
    flex-direction:row; 
-   
+   }
 
-   
-   
-}
+   .orange-flex {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+     margin-left:300px;
+    flex:1;
+}  
   
 .d-groves {
         display:flex;
         flex-direction:column;
-        justify-content: flex-start;
-      
+        justify-content: center;
+        align-items:flex-end;
+    }
+
+    h2 span {
+        display:table;
+    }
+    
+    h2 {
+        margin-right: 150px;
     }
 
     .p-farm {
+        margin-left:200px;
         width: 60%;
-        padding-left:10px;
-        margin-right:20px;
+        padding-left:5px;
         flex:4;
 
     } 
 
+    .calcium-flex {
+        display:flex;
+        flex-direction:row;
+        margin-top:20px;
+      
+    }
+    .vitamin {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
 
-h2 span {
-    display:table;
-}
+    }
 
-h2 {
-    margin-left: 80px;
-}
+    .paragraph {
+        width:60%;
+        margin-left:40px;
+        padding-left:10px;
+        padding-right:5px;
+      
+    }
 
-
-
-.orange {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-     margin-right: 330px;
-    flex:1;
-}   
+    .jug {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
 
 
 
@@ -195,6 +218,7 @@ h2 {
 
 
 
+ 
 
 
 
