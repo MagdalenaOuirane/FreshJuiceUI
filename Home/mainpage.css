@@ -87,24 +87,20 @@ body {
 }
 
 
+
 .d-flex {
     display:flex;
     flex-direction:row;
-  background-color: cyan;
-}
-
-.d-grow {
-    margin-left:150px;
-   flex:4;
-   margin-top:30px;
+    background-color: cyan;
+    justify-content:center;
+    align-items:center;
+    height:400px;
   
 }
 
 
 h3 {
     width:40%;
-    margin: 40px 60px;
-    padding: 20px 30px;
     font-size: 45px;
     color: gray;
     background-color:red;
@@ -116,113 +112,70 @@ h3 span {
 
 p {
     width:60%;
-    margin:5px 60px;
-    padding:5px 30px;
     background-color:greenyellow; 
 }
 
 
-.item {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    margin-top:50px;
-     margin-right: 200px;
-    flex:1;
-    
-}
 
-
-
-
-@media all and (max-width:800px) {
-   
-    .d-flex {
-    flex-direction:column;
-    
-    }
-
-}
 
 
 .family-farm {
-    margin-top:30px;
-    background-color: violet;
    display:flex;
-   flex-direction:row; 
+   flex-direction:row-reverse; 
+   background-color: violet;
+   height:400px;
+   justify-content:center;
+   align-items:center;
+
    }
 
-   .orange-flex {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-     margin-left:300px;
-    flex:1;
-}  
-  
-.d-groves {
-        display:flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items:flex-end;
-    }
+h2 {
+    background-color: seagreen;
+}
 
-    h2 span {
+h2 span {
         display:table;
     }
     
-    h2 {
-        margin-right: 150px;
-    }
-
-    .p-farm {
-        margin-left:200px;
-        width: 60%;
-        padding-left:5px;
-        flex:4;
-
-    } 
-
+    
+    
     .calcium-flex {
         display:flex;
         flex-direction:row;
-        margin-top:20px;
-      
-    }
-    .vitamin {
-        display:flex;
-        flex-direction:column;
         justify-content:center;
         align-items:center;
-
+        background-color:red;
+        height:500px;
+        
     }
 
-    .paragraph {
-        width:60%;
-        margin-left:40px;
-        padding-left:10px;
-        padding-right:5px;
+    .freshness {
+        height:400px;
+        display:flex;
+        flex-direction:row-reverse;
+        background-color: rgb(250, 154, 174);
+        align-items:flex-end;
       
+        
     }
 
-    .jug {
+
+    .taste {
+        height:300px;
         display:flex;
         flex-direction:column;
+        background-color:blue;
         justify-content:center;
+        align-items:center;
+        text-align:center;
     }
-
-
-
-
-
-
-
- 
-
-
-
-h2, .freshness, .taste{
+      
+.taste p span {
+    display:table;
+    margin:auto;
+}
+   
+  h2 {
     font-size: 40px;
     color: gray;
     font-weight:300;
@@ -230,52 +183,17 @@ h2, .freshness, .taste{
 
 }
    
-
-
-
-p,  .paragraph, .market, .bottle {
+p {
     font-size: 1.3em;
     color:gray;
     line-height: 200%;
 }
 
-/* .family-farm {
-    display:flex;
-    flex-direction: column;
-    
-}
-
-.groves {
-    align-self: center;
-    margin-left:300px;
-    padding: 20px;
-   background-color:gold;
-
-}
-
-  .groves span {
-    display:table;
-        }
-
-  
 
 
-        .farm span {
-            display:table;
-        }
 
-        .farm {
-            align-self:flex-end;
-            margin-right: 60px;
-            padding:20px;
-            background-color: blueviolet;
-        } */
 
-/* 
-.fresh {
-    
-    justify-content: flex-end;
-} */
+
 
 
 
@@ -299,173 +217,38 @@ footer {
 
 } */
 
-/* .orange {
-    
-    margin-left: 25px;
-    font-size: 30px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-
- 
-
-
-
-
-.juice {
-    position:relative;
-    top: 220px;
-    left: 280px;
-    font-size : 60px;
-    font-weight: 100;
-    color:gray;
-}
-
-.juice span {
-    display:table;   
-} 
-
-
-
-
-
-
-
-.
-
- 
-
- 
-   
-
-.left {
-    position: relative;
-    left:200px;
-    top:230px;
-}
-
-.vitamin {
-    position: relative;
-    left: 200px;
-    top: 700px;
-}
-
-.vitamin span {
-    display:table;
-}
-
-.paragraph {
-    position: absolute;
-    bottom:1420px;
-    left: 200px;
-  }
-
-  .paragraph span {
-      display: table;
-  }
-
-.jug {
-    position: absolute;
-    left:750px;
-    bottom: 1300px;
-}
-
-.freshness {
-    position:absolute;
-    left:600px;
-    bottom:700px;
-}
-
-.freshness span {
-    display:table;
-}
-
-.market {
-    position: absolute;
-    left: 600px;
-    bottom: 550px;
-}
-
-.market span {
-    display: table;
-}
-
-.leaves {
-    position: absolute;
-    bottom: 480px;
-    left:150px;
-}
-
-.taste {
-    
-    position: absolute;
-    bottom:  300px;
-    left: 500px;
-}
-
-
-
-
-
-
-
-
-    
-
-   
-
-    
-
-
-
-
-
-
-    /* @media only screen and (min-width:600px) { 
-        .container {
-            background-color: rgb(182, 240, 232);
-        }
-    }
-    @media only screen and  (max-width: 768px) {
-        .container {
-            background-color:pink;
-        }
-    }
-
-*/
-
-.contact {
+ .contact {
     display:flex;
     flex-direction:row;
     justify-content: center;
+    
 }
-.button {
+
+button {
     flex-shrink:1;
     flex-basis: 15%;
-    margin-bottom:20px;
- font-size:20px;  
-line-height: 20px;
+    font-size:20px;  
+    line-height: 20px;
     padding: 20px 15px;
-    
     cursor: pointer;
 }
 
 footer {
     display:flex;
+    height:100px;
     
 }
 
-.webnode span {
+footer p span {
     display:table;
-    margin-left:150px;
+    margin:auto;
 
    
 }
 
-.webnode {
-text-align:center;
-width:40%;
+footer p {
+    text-align:center;
+    width:40%;
     flex-shrink:1;
     color: gray;
      line-height: 30px;
