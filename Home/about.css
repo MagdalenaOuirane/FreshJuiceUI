@@ -7,7 +7,10 @@ body {
 }
 
 .container {
-    max-width:1500px;
+    width:1024px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
 }
 
 a {
@@ -31,6 +34,7 @@ list-style: none;
 margin:0;
 padding: 0;
 display:flex;
+background-color:pink;
 }
 
 .flex-nav li {
@@ -62,82 +66,62 @@ display:flex;
     flex: 1 1 100%;
 }
 }
-   
 
-section {
-     display:flex;/* musimy powiedziec section zeby jego dzieci main i aside tez byly elastyczne dlatego flex */
-     flex-direction:row; /*jest to ustawienie domyslne i takie chcemy zostawic */
-    flex-grow:1;
-    align-items:stretch;  /*wartosc domyslna dlatego main i aside rosna!!! */
-     width:100%;
-   
+.flex-item {
+    background-color: crimson;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
- main {
-    background-color: rgb(245, 190, 190);
-    flex-grow:1;
-    flex-basis:60%;
+.f-box {
+   width:40%;
+   /* display:flex;
+   flex-direction:column;
+   align-items:flex-start; */
+
 }
 
-
-.item {
- position:relative;
- top:100px;
-    left:200px;
-    font-size: 40px;
+h3 {
+    width:60%;
+    font-size: 45px;
     color: gray;
-    font-weight:300;
-    text-transform:uppercase;
-    background-color:yellow;
-    margin-bottom:5px;
+    background-color:red;
 }
 
-.paragraph {
-    position:relative;
-    top:120px;
-    left:200px;
-    /* width:600px; */
+
+
+p {
     font-size: 1.3em;
     color:gray;
-    background-color:blue;
-    padding-right:50px;
-    margin:5px 50px 5px 0;
-    flex-basis:50%;
+    line-height: 200%;
 }
 
-.paragraph span {
-    display: table;
-}
-
-aside {
-    /* background-color:green; */
-    flex-basis:40%;
-    min-width:280px;
-    /* background-color:cadetblue; */
-}
+   
 
 
-img {
-    /* background-color: rgb(231, 24, 138); */
-    position:relative;
-    top:100px;
-    right:-100px;
-    margin-left:10px;
 
-}
+ 
+
+
+
+
+
+
+
+
 footer {
-    /* background-color:yellow; */
-    align-self:stretch; /*or  width:100% */
-    width:100%;
-    flex-basis:10vh;
+    display:flex;
+    flex-direction:column;
+     background-color:yellow; 
+     align-self:stretch; /*or  width:100% */
     text-align:center;
 }
 
-.webnode {
-    color:gray;
-    line-height:35px;
-  /* background-color:rgb(231, 24, 138); */
-}
+
+
+
 
 
 
