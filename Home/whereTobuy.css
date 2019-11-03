@@ -7,7 +7,10 @@ body {
 }
  
  .container {
-     max-width:1500px;
+     max-width:1024px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction:column;
  
  }
 
@@ -34,6 +37,7 @@ text-decoration:underline;
     margin:0;
     padding: 0;
     display:flex;
+    background-color: cadetblue;
     }
 
 .flex-nav li {
@@ -68,18 +72,52 @@ text-decoration:underline;
 }
 }
 
-section {
+
+
+.item {
+    display: flex;
+    flex-direction:row;
+  background-color:orangered;
+}
+
+.f-store {
     display:flex;
-    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    background-color:magenta;
 }
 
-.paragraph span {
-    display:table;
+.flex-market {
+    display:flex;
+    background-color:lightcoral;
 }
 
-.store span {
-    display: table;
+footer {
+    display:flex;
+    flex-direction:column;
+  align-items:center;
+  background-color:chartreuse;
+  line-height:20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 h1 {
@@ -89,77 +127,19 @@ h1 {
     
 }
 
-.paragraph {
+p {
     font-size: 1.3em;
     color:gray;
     line-height: 200%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* h1 {
-    position: absolute;
-    right: 180px;
+h2 {
     font-size: 40px;
     color: gray;
     font-weight:300;
     text-transform:uppercase;
 }
 
-.paragraph {
-    position: absolute;
-    top: 220px;
-    right: 100px;
-    font-size: 1.1em;
-    color:gray;
-    line-height: 200%;
-}
-
-.map {
-    position: absolute;
-    top:100px;
-    left: 50px;
-}
-
-.food {
-    position: relative;
-    bottom:80px;
-}
-
-.store {
-    position: absolute;
-    top: 400px;
-    right: 100px;
-    font-size: 1.em;
-    color:gray;
-    line-height: 200%;
-}
-
-
-.map2 {
-    position:absolute;
-    left:80px;
-}
-
-.atlanta {
-    right: 180px;
-    bottom:20px;
-}
-
-.organic{
-    position:relative;
-    bottom: 0px;
-} */
 
 
 
@@ -183,11 +163,19 @@ h1 {
 
 
 
-.webnode {
-    color: gray;
-    line-height: 35px;
-    text-align: center;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
