@@ -3,11 +3,13 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 ;
 }
 
 .wrapper {
-    max-width: 1500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    
     }
 
 a {
@@ -34,6 +36,7 @@ a:hover {
     margin:0;
     padding: 0;
     display:flex;
+    background-color:orchid;
     }
 
 
@@ -53,10 +56,19 @@ a:hover {
 
 
 
+.flex {
+    display:flex;
+    flex-direction:row;
+    background-color:fuchsia;
+    align-items:flex-end;
+     
+}
 
-.contact {
-    position:absolute;
-    left:80px;
+
+
+
+h1 {
+    
     font-size: 40px;
     color: gray;
     font-weight:300;
@@ -68,18 +80,14 @@ a:hover {
 
 
 
-.area {
-    position:relative;
-    top:200px;
-    left:80px;
+p {
+   
     font-size: 1.3em;
     color:gray;
     line-height: 200%;
 }
 
-.area span {
-    display: table;
-}
+
 
 @media all and (max-width:800px) {
    
@@ -96,12 +104,7 @@ a:hover {
 }
 }
    
-.myForm {
-    margin-left: 800px;
-    font-family: sans-serif;
-    max-width: 450px;
-    /* background-color: rgb(247, 0, 255); */
-}
+
 
 
 .myForm .form-row {
