@@ -55,13 +55,19 @@ a:hover {
 
 
 
-
 .flex {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     background-color:fuchsia;
-    align-items:flex-end;
+    align-items:flex-start;
+    width:60%;
+    padding:20px;
      
+}
+.form{
+    width:80%;
+    background-color: hotpink;
+    margin-top:50px;
 }
 
 
@@ -229,4 +235,15 @@ transition: 0.3s ;
     to {
         transform: translate(-50%, -50%) rotate(360deg);
     }
+}
+
+footer {
+    background-color:khaki;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.webnode {
+    text-align:center;
 }
