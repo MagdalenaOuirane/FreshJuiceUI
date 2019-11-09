@@ -96,8 +96,16 @@ body {
     justify-content:center;
     align-items:center;
     height:400px;
-   
   
+}
+
+.fresh-juice {
+    width:600px;
+}
+
+.img-bottle {
+   
+    margin-right:100px;
 }
 
 
@@ -119,7 +127,9 @@ h3 span {
 p {
     width:60%;
     background-color:greenyellow; 
-}
+}  
+
+
 
 
 
@@ -138,9 +148,14 @@ display: flex;
 flex-direction:column;
 justify-content:flex-end;
 align-items:center;
-
+width:500px;
 
 }
+
+.pic {
+    margin-right:85px;
+}
+
 
 
 
@@ -164,15 +179,25 @@ h2 span {
         
     }
 
+    .vitamin {
+        width:500px;
+    }
+
     .freshness {
         height:400px;
         display:flex;
         flex-direction:row-reverse;
         background-color: rgb(250, 154, 174);
         align-items:flex-end;
-      
-        
-    }
+       
+  }
+
+  .f-market {
+      display:flex;
+      flex-direction:column;
+      width:600px;
+      align-items:centerqq;
+  }
 
 
     .taste {
